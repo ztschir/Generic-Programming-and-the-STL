@@ -1,0 +1,31 @@
+==10565== Memcheck, a memory error detector
+==10565== Copyright (C) 2002-2009, and GNU GPL'd, by Julian Seward et al.
+==10565== Using Valgrind-3.6.0.SVN-Debian and LibVEX; rerun with -h for copyright info
+==10565== Command: TestInteger.c++.app
+==10565==
+
+TestInteger.c++
+
+...........................................................................................
+
+
+OK (91 tests)
+
+
+Done.
+
+==10565==
+==10565== HEAP SUMMARY:
+==10565==     in use at exit: 122,880 bytes in 6 blocks
+==10565==   total heap usage: 6,688 allocs, 6,682 frees, 604,606 bytes allocated
+==10565==
+==10565== LEAK SUMMARY:
+==10565==    definitely lost: 0 bytes in 0 blocks
+==10565==    indirectly lost: 0 bytes in 0 blocks
+==10565==      possibly lost: 0 bytes in 0 blocks
+==10565==    still reachable: 122,880 bytes in 6 blocks
+==10565==         suppressed: 0 bytes in 0 blocks
+==10565== Rerun with --leak-check=full to see details of leaked memory
+==10565==
+==10565== For counts of detected and suppressed errors, rerun with: -v
+==10565== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 22 from 7)

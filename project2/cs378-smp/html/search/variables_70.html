@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><title></title>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="search.css"/>
+<script type="text/javascript" src="search.js"></script>
+</head>
+<body class="SRPage">
+<div id="SRIndex">
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRResult" id="SR_position">
+ <div class="SREntry">
+  <a id="Item0" onkeydown="return searchResults.Nav(event,0)" onkeypress="return searchResults.Nav(event,0)" onkeyup="return searchResults.Nav(event,0)" class="SRSymbol" href="../structMen.html#a28244207d0eb0ce249b32b7a9f77b60a" target="_parent">position</a>
+  <span class="SRScope">Men</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_pref">
+ <div class="SREntry">
+  <a id="Item1" onkeydown="return searchResults.Nav(event,1)" onkeypress="return searchResults.Nav(event,1)" onkeyup="return searchResults.Nav(event,1)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_pref')">pref</a>
+  <div class="SRChildren">
+    <a id="Item1_c0" onkeydown="return searchResults.NavChild(event,1,0)" onkeypress="return searchResults.NavChild(event,1,0)" onkeyup="return searchResults.NavChild(event,1,0)" class="SRScope" href="../structWomen.html#abdf882856bf88c8221f204fde5ed7d5d" target="_parent">Women::pref()</a>
+    <a id="Item1_c1" onkeydown="return searchResults.NavChild(event,1,1)" onkeypress="return searchResults.NavChild(event,1,1)" onkeyup="return searchResults.NavChild(event,1,1)" class="SRScope" href="../structMen.html#a94bee3b91b44441107b2aa37d5e099e5" target="_parent">Men::pref()</a>
+  </div>
+ </div>
+</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+<script type="text/javascript"><!--
+document.getElementById("Loading").style.display="none";
+document.getElementById("NoMatches").style.display="none";
+var searchResults = new SearchResults("searchResults");
+searchResults.Search();
+--></script>
+</div>
+</body>
+</html>

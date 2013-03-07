@@ -1,0 +1,205 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E081BB9315856D1F00D52787 /* SphereCollatz.c++ in Sources */ = {isa = PBXBuildFile; fileRef = E081BB9215856D1F00D52787 /* SphereCollatz.c++ */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E0170D8915854D4900BA0E02 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E0170D8B15854D4900BA0E02 /* collatz */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = collatz; sourceTree = BUILT_PRODUCTS_DIR; };
+		E081BB9215856D1F00D52787 /* SphereCollatz.c++ */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "SphereCollatz.c++"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0170D8815854D4900BA0E02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0170D8015854D4900BA0E02 = {
+			isa = PBXGroup;
+			children = (
+				E0170D8E15854D4900BA0E02 /* collatz */,
+				E0170D8C15854D4900BA0E02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0170D8C15854D4900BA0E02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0170D8B15854D4900BA0E02 /* collatz */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0170D8E15854D4900BA0E02 /* collatz */ = {
+			isa = PBXGroup;
+			children = (
+				E081BB9215856D1F00D52787 /* SphereCollatz.c++ */,
+			);
+			path = collatz;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0170D8A15854D4900BA0E02 /* collatz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0170D9515854D4900BA0E02 /* Build configuration list for PBXNativeTarget "collatz" */;
+			buildPhases = (
+				E0170D8715854D4900BA0E02 /* Sources */,
+				E0170D8815854D4900BA0E02 /* Frameworks */,
+				E0170D8915854D4900BA0E02 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = collatz;
+			productName = collatz;
+			productReference = E0170D8B15854D4900BA0E02 /* collatz */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0170D8215854D4900BA0E02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E0170D8515854D4900BA0E02 /* Build configuration list for PBXProject "collatz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E0170D8015854D4900BA0E02;
+			productRefGroup = E0170D8C15854D4900BA0E02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0170D8A15854D4900BA0E02 /* collatz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0170D8715854D4900BA0E02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E081BB9315856D1F00D52787 /* SphereCollatz.c++ in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E0170D9315854D4900BA0E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E0170D9415854D4900BA0E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E0170D9615854D4900BA0E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E0170D9715854D4900BA0E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0170D8515854D4900BA0E02 /* Build configuration list for PBXProject "collatz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0170D9315854D4900BA0E02 /* Debug */,
+				E0170D9415854D4900BA0E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0170D9515854D4900BA0E02 /* Build configuration list for PBXNativeTarget "collatz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0170D9615854D4900BA0E02 /* Debug */,
+				E0170D9715854D4900BA0E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0170D8215854D4900BA0E02 /* Project object */;
+}

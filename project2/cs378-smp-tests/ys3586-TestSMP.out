@@ -1,0 +1,28 @@
+==23459== Memcheck, a memory error detector
+==23459== Copyright (C) 2002-2009, and GNU GPL'd, by Julian Seward et al.
+==23459== Using Valgrind-3.6.0.SVN-Debian and LibVEX; rerun with -h for copyright info
+==23459== Command: TestSMP.c++.app
+==23459== 
+TestSMP.c++
+...............
+
+
+OK (15 tests)
+
+
+Done.
+==23459== 
+==23459== HEAP SUMMARY:
+==23459==     in use at exit: 122,880 bytes in 6 blocks
+==23459==   total heap usage: 698 allocs, 692 frees, 192,431 bytes allocated
+==23459== 
+==23459== LEAK SUMMARY:
+==23459==    definitely lost: 0 bytes in 0 blocks
+==23459==    indirectly lost: 0 bytes in 0 blocks
+==23459==      possibly lost: 0 bytes in 0 blocks
+==23459==    still reachable: 122,880 bytes in 6 blocks
+==23459==         suppressed: 0 bytes in 0 blocks
+==23459== Rerun with --leak-check=full to see details of leaked memory
+==23459== 
+==23459== For counts of detected and suppressed errors, rerun with: -v
+==23459== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 22 from 7)
